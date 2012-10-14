@@ -1,0 +1,83 @@
+html{color:#000;
+background:#EDFC72;
+padding:20px 0;
+font:12px/18px "Malgun Gothic", "Gulim", "Consolas", "Vernada"
+}
+
+/*Basic*/
+h1{font-size:14px; line-height:28px; font-weight:bold;}
+h2{font-size:12px; line-height:24px; font-weight:bold;}
+a:visited, a:link{color:#c20A00;text-decoration:none;}
+a:hover, a:active{color:#C23700;}
+
+#wrap {width:960px; margin:0 auto; background-color:#C9F83E}
+
+/*top*/
+#top{
+	width:950px; color:#eee;
+	padding:0 10px 15px 0;
+	text-align:right; font-weight:bold;
+}
+#top a {color:#eee; text-decoration:none;padding:5px;}
+#top a:hover {background-color:yellow;}
+
+/*header*/
+#header{
+	width:100%;height:120px; background-color:#B4F200;
+	border-bottom: 20px solid #999;
+
+	/*make rounded sidelines*/
+	border-radius: 15px 15px 0 0;
+}
+
+#header_top {height:140px;}
+#header_left{
+	width:500px; float:left;display:inline; color:#FFF;
+	padding:10px; height:80px;
+}
+
+#header_right{width:400px;float:right;text-align: right;display:inline; padding:40px 30px 0 0;}
+#line{width:100%; height:5px; background-color:#94c713;}
+
+
+/*search*/
+/*footer*/
+#footer{background-color:#d5dde2; color:#888; text-align:center; padding:20px;}
+
+
+/*navigation*/
+#navbar{width:960px; height:30px; background-color:#94c713;}
+#navbar ul{margin:0;padding:0;}
+#navbar ul li{float:left;}
+#navbar ul li a{
+	color:#fff; background-color:#88B32D;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px;
+	font:bold 12px/30px Consolas;
+	text-decoration:none;
+	margin-right:1px;
+}
+#navbar ul li a.selected {background-color:#94c713;}
+#navbar ul li a:hover {background-color:#709647;}
+
+
+#main_content div.section_1, #main_content div.section_2{
+	width:950px;
+	margin-bottom:20px;
+	border:1px solid #d7e9f9;
+	border-radius: 5px;
+	overflow:auto;
+}
+
+#main_content div.section_1 h1, #main_content div.section_2 h1{
+	width:900px;
+	padding:4px 6px 4px 44px;
+	background:#d7e9f9;
+	border-radius:5px 5px 0 0;
+}
+
+#main_content div.section_1 li, #main_content div.section_2 li{
+	width:900px; display:block; float:left;
+}
